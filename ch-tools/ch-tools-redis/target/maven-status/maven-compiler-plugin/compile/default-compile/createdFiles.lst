@@ -1,0 +1,3 @@
+cn\changzer\choppy\RedisAutoConfiguration.class
+cn\changzer\choppy\serializer\FastJsonRedisSerializer.class
+cn\changzer\choppy\redis\RedisCache.class
