@@ -27,6 +27,7 @@ public class ConfigClientController
         redisCache.setCacheObject(configInfo,"adsfafwaf阿三顶顶顶顶顶顶顶顶s");
         redisCache.expire(configInfo, 1000 * 30);
         String laksdhjalskdhasljkdhajkld = TokenUtil.createToken(1L);
+        int a = 1/0;
         long verify = TokenUtil.getUserIdByToken("eyJUeXBlIjoiSnd0IiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJpZCI6MSwiZXhwIjoxNjY2NzA3ODg4fQ.BOcGYpgHVL8v6WYvEooMoFmIV6HBWx5FmJrcPJYbB-o");
         return String.valueOf(verify);
     }

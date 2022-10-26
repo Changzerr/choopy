@@ -3,118 +3,61 @@ package cn.changzer.choppy.enums;
 
 
 public enum CommonCode {
-    /**
-     * 操作成功
-     */
-    SUCCESS(200,"操作成功"),
 
-    /**
-     * 登录成功
-     */
-    SUCCESS_LOGIN(200,"登录成功"),
+    SUCCESS(20000,"操作成功"),
 
-    /**
-     * 注销成功
-     */
-    SUCCESS_LOGOUT(200,"注销成功"),
+    SUCCESS_LOGIN(20001,"登录成功"),
 
-    /**
-     * 注册成功"
-     */
-    SUCCESS_REGISTRATION(200,"注册成功"),
+    SUCCESS_LOGOUT(20002,"注销成功"),
 
-    /**
-     * 操作失败
-     */
-    FAILURE(500,"操作失败"),
-    /**
-     * 操作失败
-     */
-    FAILURE_ADD_STUDENT(500,"添加学生失败,学号已存在"),
+    SUCCESS_REGISTRATION(20003,"注册成功"),
 
-    /**
-     * 操作失败,信息不存在
-     */
-    FAILURE_UPDATE_PASSWORD(500,"操作失败,信息不存在"),
+    FAILURE(50000,"操作失败"),
 
-    /**
-     * 操作失败
-     */
-    FAILURE_APPLICATION(500,"操作失败,本学期已申请"),
+    FAILURE_ADD_STUDENT(500001,"添加学生失败,学号已存在"),
 
-    /**
-     * 操作失败
-     */
-    FAILURE_SEMESTER_EXIST(500,"操作失败,该学期已存在"),
+    FAILURE_UPDATE_PASSWORD(50002,"操作失败,信息不存在"),
 
-    /**
-     * 图片上传失败
-     */
-    FAILURE_UPLOAD_IMG(500,"图片上传失败"),
+    FAILURE_APPLICATION(50003,"操作失败,本学期已申请"),
 
-    /**
-     * 操作失败，人数已满!!!"
-     */
-    NUMBER_OF_FULL(500,"操作失败,人数已满!!!"),
+    FAILURE_SEMESTER_EXIST(50004,"操作失败,该学期已存在"),
 
-    /**
-     * 登录失败，学号或者密码错误
-     */
-    FAILURE_TO_LOGIN(500,"登录失败，学号或者密码错误"),
+    FAILURE_UPLOAD_IMG(50005,"图片上传失败"),
 
-    /**
-     * 登录失败，学工号或者密码错误
-     */
-    FAILURE_TO_LOGIN_ADMIN(500,"登录失败，学工号错误"),
+    NUMBER_OF_FULL(50006,"操作失败,人数已满!!!"),
 
-    /**
-     * 当前人数过多，请重试!
-     */
-    FAILURE_TO_ORDER(500,"当前人数过多，请重试!"),
+    FAILURE_TO_LOGIN(50007,"登录失败，学号或者密码错误"),
 
-    /**
-     * 旧密码错误，修改密码失败
-     */
-    FAILURE_TO_CHANGE_PASSWORD(500,"修改密码失败，旧密码错误"),
+    FAILURE_TO_LOGIN_ADMIN(50008,"登录失败，学工号错误"),
 
-    /**
-     * 新密码与旧密码相同
-     */
-    OLD_PASSWORD_EQULS_NEW(500,"新密码与旧密码相同"),
+    FAILURE_TO_ORDER(50009,"当前人数过多，请重试!"),
 
-    /**
-     * 参数验证失败
-     */
-    VALIDATE_FAILED(404,"参数验证失败"),
+    FAILURE_TO_CHANGE_PASSWORD(50010,"修改密码失败，旧密码错误"),
+    OLD_PASSWORD_EQULS_NEW(50011,"新密码与旧密码相同"),
 
-    /**
-     * 登录过期，请重新登录
-     */
-    LOGIN_DATE(401,"登录过期，请重新登录"),
+    VALIDATE_FAILED(40000,"参数验证失败"),
+    PARAM_EX(40000, "参数类型解析异常"),
+    ILLEGALA_ARGUMENT_EX(40000, "无效参数异常"),
+    NULL_POINT_EX(40000, "空指针异常"),
+    MEDIA_TYPE_EX(40000, "请求类型异常"),
+    REQUIRED_FILE_PARAM_EX(40000, "请求中必须至少包含一个有效文件"),
+    SYSTEM_BUSY(40000, "系统繁忙~请稍后再试~"),
+    BASE_VALID_PARAM(40000, "统一验证参数异常"),
+    METHOD_NOT_ALLOWED(40000, "不支持当前请求类型"),
+    SQL_EX(40000, "运行SQL出现异常"),
+    LOGIN_DATE(40001,"登录过期，请重新登录"),
 
-    /**
-     * 注册失败，该用户已存在
-     */
-    FAILED_REGISTRATION(406,"注册失败，该用户已存在"),
+    FAILED_REGISTRATION(40002,"注册失败，该用户已存在"),
 
-    /**
-     * 认证失败请重新登录
-     */
-    UNAUTHORIZED(401,"认证失败请重新登录"),
+    FORBIDDEN(40003,"没有操作权限"),
 
-    /**
-     * 没有操作权限
-     */
-    FORBIDDEN(403,"没有操作权限"),
+    FAILED_AUTHORIZED(40004,"授权失败"),
 
-    /**
-     * token过期,请重新登录
-     */
-    TOKEN_ILLEGAL(10001,"token过期,请重新登录"),
-    /**
-     * token过期,请重新登录
-     */
-    FAILED_AUTHORIZED(500,"授权失败");
+    UNAUTHORIZED(40005,"认证失败请重新登录"),
+    TOKEN_ILLEGAL(10000,"token过期,请重新登录");
+
+
+
 
     private Integer code;
     private String msg;
@@ -130,7 +73,7 @@ public enum CommonCode {
     }
 
 
-    public String getmsg() {
+    public String getMsg() {
         return this.msg;
     }
 }
