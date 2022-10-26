@@ -1,6 +1,7 @@
 package cn.changzer.choppy.handler;
 
 import cn.changzer.choppy.enums.CommonCode;
+import cn.changzer.choppy.exception.BizException;
 import cn.changzer.choppy.result.Result;
 import cn.hutool.core.util.StrUtil;
 import lombok.extern.slf4j.Slf4j;
@@ -34,11 +35,11 @@ import java.util.stream.Collectors;
 //@ResponseBody
 @Slf4j
 public abstract class DefaultGlobalExceptionHandler {
-    //@ExceptionHandler(BizException.class)
-    //public Result<String> bizException(BizException ex, HttpServletRequest request) {
-    //    log.warn("BizException:", ex);
-    //    return Result.result(ex.getCode(), "", ex.getMessage()).setPath(request.getRequestURI());
-    //}
+    @ExceptionHandler(BizException.class)
+    public Result<String> bizException(BizException ex, HttpServletRequest request) {
+        log.warn("BizException:", ex);
+        return Result.result(ex.getCode(), "", ex.getMessage()).setPath(request.getRequestURI());
+    }
 
     @ExceptionHandler(HttpMessageNotReadableException.class)
     public Result httpMessageNotReadableException(HttpMessageNotReadableException ex, HttpServletRequest request) {

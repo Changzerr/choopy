@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a237335-0b18-4b42-ac10-07868af19951" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-validator/ch-tools-validator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-validator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-validator/src/main/java/cn/changzer/validator/config/EnableFormValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-validator/src/main/java/cn/changzer/validator/config/ValidatorConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/entity/SuperEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/exception/BaseUncheckedException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/handler/DefaultGlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/handler/DefaultGlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +76,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lbs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -102,6 +96,7 @@
       <recent name="cn.changzer.choppy.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\学习\web微服务\choppy\ch-tools\ch-tools-common\src\main\java\cn\changzer\choppy" />
       <recent name="E:\学习\web微服务\choppy\lbs" />
     </key>
   </component>
@@ -125,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666663803282</updated>
       <workItem from="1666663808877" duration="5658000" />
-      <workItem from="1666676183660" duration="27189000" />
+      <workItem from="1666676183660" duration="28338000" />
     </task>
     <task id="LOCAL-00001" summary="全局异常捕获">
       <created>1666766229575</created>
@@ -141,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666788534463</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="全局异常捕获DefualtGlobalExceptionHandler">
+      <created>1666792091795</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666792091795</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,10 +172,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1666705280031" />
-    <state x="515" y="112" key="CommitChangelistDialog2" timestamp="1666788532028">
+    <state x="515" y="112" key="CommitChangelistDialog2" timestamp="1666792089607">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="515" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1666788532028" />
+    <state x="515" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1666792089607" />
     <state width="1877" height="538" key="GridCell.Tab.0.bottom" timestamp="1666792055144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -218,10 +220,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1666677486481" />
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1666788535711">
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1666792093830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1666788535711" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1666792093830" />
     <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1666663809057">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
