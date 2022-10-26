@@ -15,12 +15,12 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
 import org.springframework.web.multipart.MultipartException;
 import org.springframework.web.multipart.support.MissingServletRequestPartException;
+import org.springframework.validation.BindException;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
-import java.net.BindException;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Set;
@@ -51,25 +51,25 @@ public abstract class DefaultGlobalExceptionHandler {
         return Result.result(CommonCode.PARAM_EX.getCode(), "", CommonCode.PARAM_EX.getMsg()).setPath(request.getRequestURI());
     }
 
-    //@ExceptionHandler(BindException.class)
-    //public Result bindException(BindException ex, HttpServletRequest request) {
-    //    log.warn("BindException:", ex);
-    //    try {
-    //        String msgs = ex.getBindingResult().getFieldError().getDefaultMessage();
-    //        if (StrUtil.isNotEmpty(msgs)) {
-    //            return Result.result(CommonCode.PARAM_EX.getCode(), "", msgs).setPath(request.getRequestURI());
-    //        }
-    //    } catch (Exception ee) {
-    //    }
-    //    StringBuilder msg = new StringBuilder();
-    //    List<FieldError> fieldErrors = ex.getFieldErrors();
-    //    fieldErrors.forEach((oe) ->
-    //            msg.append("参数:[").append(oe.getObjectName())
-    //                    .append(".").append(oe.getField())
-    //                    .append("]的传入值:[").append(oe.getRejectedValue()).append("]与预期的字段类型不匹配.")
-    //    );
-    //    return Result.result(CommonCode.PARAM_EX.getCode(), "", msg.toString()).setPath(request.getRequestURI());
-    //}
+    @ExceptionHandler(BindException.class)
+    public Result bindException(BindException ex, HttpServletRequest request) {
+        log.warn("BindException:", ex);
+        try {
+            String msgs = ex.getBindingResult().getFieldError().getDefaultMessage();
+            if (StrUtil.isNotEmpty(msgs)) {
+                return Result.result(CommonCode.PARAM_EX.getCode(), "", msgs).setPath(request.getRequestURI());
+            }
+        } catch (Exception ee) {
+        }
+        StringBuilder msg = new StringBuilder();
+        List<FieldError> fieldErrors = ex.getFieldErrors();
+        fieldErrors.forEach((oe) ->
+                msg.append("参数:[").append(oe.getObjectName())
+                        .append(".").append(oe.getField())
+                        .append("]的传入值:[").append(oe.getRejectedValue()).append("]与预期的字段类型不匹配.")
+        );
+        return Result.result(CommonCode.PARAM_EX.getCode(), "", msg.toString()).setPath(request.getRequestURI());
+    }
 
 
     @ExceptionHandler(MethodArgumentTypeMismatchException.class)
@@ -191,24 +191,6 @@ public abstract class DefaultGlobalExceptionHandler {
     }
 
 
-    //@ExceptionHandler(PersistenceException.class)
-    //public Result<String> persistenceException(PersistenceException ex, HttpServletRequest request) {
-    //    log.warn("PersistenceException:", ex);
-    //    if (ex.getCause() instanceof BizException) {
-    //        BizException cause = (BizException) ex.getCause();
-    //        return Result.result(cause.getCode(), "", cause.getMessage());
-    //    }
-    //    return Result.result(CommonCode.SQL_EX.getCode(), "", CommonCode.SQL_EX.getMsg()).setPath(request.getRequestURI());
-    //}
-
-    //@ExceptionHandler(MyBatisSystemException.class)
-    //public R<String> myBatisSystemException(MyBatisSystemException ex, HttpServletRequest request) {
-    //    log.warn("PersistenceException:", ex);
-    //    if (ex.getCause() instanceof PersistenceException) {
-    //        return this.persistenceException((PersistenceException) ex.getCause(), request);
-    //    }
-    //    return R.result(CommonCode.SQL_EX.getCode(), "", CommonCode.SQL_EX.getMsg()).setPath(request.getRequestURI());
-    //}
 
     @ExceptionHandler(SQLException.class)
     public Result sqlException(SQLException ex, HttpServletRequest request) {
@@ -216,10 +198,5 @@ public abstract class DefaultGlobalExceptionHandler {
         return Result.result(CommonCode.SQL_EX.getCode(), "", CommonCode.SQL_EX.getMsg()).setPath(request.getRequestURI());
     }
 
-    //@ExceptionHandler(DataIntegrityViolationException.class)
-    //public Result dataIntegrityViolationException(DataIntegrityViolationException ex, HttpServletRequest request) {
-    //    log.warn("DataIntegrityViolationException:", ex);
-    //    return Result.result(CommonCode.SQL_EX.getCode(), "", CommonCode.SQL_EX.getMsg()).setPath(request.getRequestURI());
-    //}
 
 }

@@ -15,6 +15,7 @@
         <module>ch-tools-swagger3</module>
         <module>ch-tools-common</module>
         <module>ch-tools-redis</module>
+        <module>ch-tools-validator</module>
     </modules>
 
 

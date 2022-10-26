@@ -79,6 +79,9 @@
         <swagger.ui.version>1.9.6</swagger.ui.version>
         <knife4j.version>3.0.2</knife4j.version>
         <commons-lang.version>2.6</commons-lang.version>
+        <mybatis.version>3.5.2</mybatis.version>
+        <mybatis.typehandlers.version>1.0.2</mybatis.typehandlers.version>
+        <mybatisplus.version>3.2.0</mybatisplus.version>
     </properties>
 
     <!-- 1、只是声明依赖，并不实际引入，子项目按需声明使用的依赖 -->
@@ -180,6 +183,23 @@
                 <groupId>commons-lang</groupId>
                 <artifactId>commons-lang</artifactId>
                 <version>${commons-lang.version}</version>
+            </dependency>
+
+            <!-- 持久层相关 -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatisplus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus</artifactId>
+                <version>${mybatisplus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis-typehandlers-jsr310</artifactId>
+                <version>${mybatis.typehandlers.version}</version>
             </dependency>
         </dependencies>
 
