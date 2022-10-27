@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a237335-0b18-4b42-ac10-07868af19951" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/entity/SuperEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/exception/BaseUncheckedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/src/main/java/cn/changzer/choppy/config/Swagger3Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-database/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-database/src/main/java/cn/changzer/database/DatabaseAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-database/src/main/java/cn/changzer/database/mybatis/handler/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-database/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-common/target/ch-tools-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/target/ch-tools-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-redis/target/ch-tools-redis-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-redis/target/ch-tools-redis-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-swagger3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-swagger3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-swagger3/src/main/java/cn/changzer/choppy/config/Swagger3Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-swagger3/src/main/java/cn/changzer/choppy/config/Swagger3Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-swagger3/target/ch-tools-swagger3-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-swagger3/target/ch-tools-swagger3-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-swagger3/target/classes/cn/changzer/choppy/config/Swagger3Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-swagger3/target/classes/cn/changzer/choppy/config/Swagger3Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +105,9 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\学习\web微服务\choppy\ch-tools\ch-tools-database\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.changzer.choppy.controller" />
     </key>
@@ -120,7 +136,8 @@
       <option name="presentableId" value="Default" />
       <updated>1666663803282</updated>
       <workItem from="1666663808877" duration="5658000" />
-      <workItem from="1666676183660" duration="28338000" />
+      <workItem from="1666676183660" duration="30164000" />
+      <workItem from="1666848892589" duration="1112000" />
     </task>
     <task id="LOCAL-00001" summary="全局异常捕获">
       <created>1666766229575</created>
@@ -143,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666792091795</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="实体公共类">
+      <created>1666793324621</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666793324621</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +177,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="全局异常捕获" />
     <MESSAGE value="全局异常捕获DefualtGlobalExceptionHandler" />
-    <option name="LAST_COMMIT_MESSAGE" value="全局异常捕获DefualtGlobalExceptionHandler" />
+    <MESSAGE value="实体公共类" />
+    <option name="LAST_COMMIT_MESSAGE" value="实体公共类" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1666787144835">
@@ -172,66 +197,67 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1666705280031" />
-    <state x="515" y="112" key="CommitChangelistDialog2" timestamp="1666792089607">
+    <state x="515" y="112" key="CommitChangelistDialog2" timestamp="1666793322671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="515" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1666792089607" />
-    <state width="1877" height="538" key="GridCell.Tab.0.bottom" timestamp="1666792055144">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="515" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1666793322671" />
+    <state width="1877" height="344" key="GridCell.Tab.0.bottom" timestamp="1666797506332">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666683344252" />
-    <state width="1877" height="538" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1666792055144" />
-    <state width="1877" height="538" key="GridCell.Tab.0.center" timestamp="1666792055144">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="344" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666797506332" />
+    <state width="1877" height="538" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1666794263401" />
+    <state width="1877" height="344" key="GridCell.Tab.0.center" timestamp="1666797506332">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1666683344252" />
-    <state width="1877" height="538" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1666792055144" />
-    <state width="1877" height="538" key="GridCell.Tab.0.left" timestamp="1666792055143">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="344" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1666797506332" />
+    <state width="1877" height="538" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1666794263400" />
+    <state width="1877" height="344" key="GridCell.Tab.0.left" timestamp="1666797506332">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1666683344251" />
-    <state width="1877" height="538" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1666792055143" />
-    <state width="1877" height="538" key="GridCell.Tab.0.right" timestamp="1666792055144">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="344" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1666797506332" />
+    <state width="1877" height="538" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1666794263400" />
+    <state width="1877" height="344" key="GridCell.Tab.0.right" timestamp="1666797506332">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1666683344252" />
-    <state width="1877" height="538" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1666792055144" />
-    <state width="1877" height="538" key="GridCell.Tab.1.bottom" timestamp="1666792055144">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1666797506332" />
+    <state width="1877" height="538" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1666794263400" />
+    <state width="1877" height="344" key="GridCell.Tab.1.bottom" timestamp="1666797506332">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666683344252" />
-    <state width="1877" height="538" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1666792055144" />
-    <state width="1877" height="538" key="GridCell.Tab.1.center" timestamp="1666792055144">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666797506332" />
+    <state width="1877" height="538" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1666794263401" />
+    <state width="1877" height="344" key="GridCell.Tab.1.center" timestamp="1666797506332">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1666683344252" />
-    <state width="1877" height="538" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1666792055144" />
-    <state width="1877" height="538" key="GridCell.Tab.1.left" timestamp="1666792055144">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1666797506332" />
+    <state width="1877" height="538" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1666794263401" />
+    <state width="1877" height="344" key="GridCell.Tab.1.left" timestamp="1666797506332">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1666683344252" />
-    <state width="1877" height="538" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1666792055144" />
-    <state width="1877" height="538" key="GridCell.Tab.1.right" timestamp="1666792055144">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1666797506332" />
+    <state width="1877" height="538" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1666794263401" />
+    <state width="1877" height="344" key="GridCell.Tab.1.right" timestamp="1666797506332">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1666683344252" />
-    <state width="1877" height="538" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1666792055144" />
+    <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1666797506332" />
+    <state width="1877" height="538" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1666794263401" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1666677486481">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1666677486481" />
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1666792093830">
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1666793329994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1666792093830" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1666663809057">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1666793329994" />
+    <state x="488" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1666848894254">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1666663809057" />
-    <state x="42" y="54" key="new project wizard" timestamp="1666789116782">
+    <state x="488" y="252" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1666848894254" />
+    <state x="42" y="54" key="new project wizard" timestamp="1666849041578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="28" y="35" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1666681344249" />
-    <state x="42" y="54" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1666789116782" />
+    <state x="42" y="54" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1666849041578" />
   </component>
 </project>

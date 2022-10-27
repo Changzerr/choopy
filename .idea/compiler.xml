@@ -7,10 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ch-tools-redis" />
-        <module name="ch-tools-common" />
         <module name="ch-tools-validator" />
+        <module name="ch-tools-common" />
+        <module name="ch-tools-redis" />
         <module name="ch-auth" />
+        <module name="ch-tools-database" />
         <module name="ch-tools-swagger3" />
       </profile>
     </annotationProcessing>

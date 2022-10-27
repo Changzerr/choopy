@@ -15,9 +15,9 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.service.Contact;
 
 // 自定义swagger3文档信息
-//@Configuration
+@Configuration
 @EnableKnife4j
-//@EnableOpenApi
+@EnableOpenApi
 @ConditionalOnProperty(value = "choppy.swagger.enabled", havingValue = "true", matchIfMissing = true)
 public class Swagger3Config {
     @Bean

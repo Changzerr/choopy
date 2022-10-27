@@ -1,4 +1,9 @@
-E:\学习\web微服务\choppy\ch-tools\ch-tools-common\src\main\java\cn\changzer\choppy\jwt\JwtUtil.java
+E:\学习\web微服务\choppy\ch-tools\ch-tools-common\src\main\java\cn\changzer\choppy\exception\BaseUncheckedException.java
+E:\学习\web微服务\choppy\ch-tools\ch-tools-common\src\main\java\cn\changzer\choppy\handler\DefaultGlobalExceptionHandler.java
+E:\学习\web微服务\choppy\ch-tools\ch-tools-common\src\main\java\cn\changzer\choppy\jwt\TokenUtil.java
 E:\学习\web微服务\choppy\ch-tools\ch-tools-common\src\main\java\cn\changzer\choppy\enums\CommonCode.java
+E:\学习\web微服务\choppy\ch-tools\ch-tools-common\src\main\java\cn\changzer\choppy\exception\BizException.java
 E:\学习\web微服务\choppy\ch-tools\ch-tools-common\src\main\java\cn\changzer\choppy\enums\SexEnum.java
+E:\学习\web微服务\choppy\ch-tools\ch-tools-common\src\main\java\cn\changzer\choppy\entity\Entity.java
 E:\学习\web微服务\choppy\ch-tools\ch-tools-common\src\main\java\cn\changzer\choppy\result\Result.java
+E:\学习\web微服务\choppy\ch-tools\ch-tools-common\src\main\java\cn\changzer\choppy\entity\SuperEntity.java

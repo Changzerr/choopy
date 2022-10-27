@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/ch-apps/ch-auth/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch-tools/ch-tools-database/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch-tools/ch-tools-database/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch-tools/ch-tools-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch-tools/ch-tools-redis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch-tools/ch-tools-swagger3/src/main/java" charset="UTF-8" />

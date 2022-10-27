@@ -16,6 +16,7 @@
         <module>ch-tools-common</module>
         <module>ch-tools-redis</module>
         <module>ch-tools-validator</module>
+        <module>ch-tools-database</module>
     </modules>
 
 
