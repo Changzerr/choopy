@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    cn.changzer.choppy.log.LogAutoConfiguration
+org.springframework.context.ApplicationContextInitializer=\
+    cn.changzer.choppy.log.init.ApplicationLoggerInitializer
