@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a237335-0b18-4b42-ac10-07868af19951" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/content/BaseContextConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/content/BaseContextHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-log/ch-tools-log.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-log/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-log/src/main/java/cn/changzer/choppy/log/annotation/SysLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-log/src/main/java/cn/changzer/choppy/log/aspect/SysLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-log/src/main/java/cn/changzer/choppy/log/entity/OptLogDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-log/src/main/java/cn/changzer/choppy/log/event/SysLogEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-log/src/main/java/cn/changzer/choppy/log/event/SysLogListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-log/src/main/java/cn/changzer/choppy/log/init/ApplicationLoggerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-log/src/main/java/cn/changzer/choppy/log/logback/pinda-defaults.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-log/src/main/java/cn/changzer/choppy/log/util/AddressUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-log/src/main/java/cn/changzer/choppy/log/util/LogUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/result/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/RoleAuthority.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/RoleAuthority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/RoleOrg.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/RoleOrg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/common/LoginLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/common/LoginLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/common/OptLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/common/OptLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/core/Org.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/core/Org.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/core/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/core/Station.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,14 +106,15 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.changzer.choppy.log" />
       <recent name="cn.changzer.choppy.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\学习\web微服务\choppy\ch-tools\ch-tools-log\src\main\resources" />
       <recent name="E:\学习\web微服务\choppy\ch-tools\ch-tools-log\src\main\java\cn\changzer\choppy\log" />
       <recent name="E:\学习\web微服务\choppy\ch-apps\ch-auth\ch-auth-entity\src\main\java\cn\changzer\choppy" />
       <recent name="E:\学习\web微服务\choppy\ch-tools\ch-tools-swagger3\src\main\java\cn\changzer\choppy\swagger2" />
       <recent name="E:\学习\web微服务\choppy\ch-tools\ch-tools-common\src\main\java\cn\changzer\choppy" />
-      <recent name="E:\学习\web微服务\choppy\lbs" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AuthorityApplication (1)">
@@ -163,7 +156,7 @@
       <updated>1666663803282</updated>
       <workItem from="1666663808877" duration="5658000" />
       <workItem from="1666676183660" duration="30164000" />
-      <workItem from="1666848892589" duration="17933000" />
+      <workItem from="1666848892589" duration="18491000" />
     </task>
     <task id="LOCAL-00001" summary="全局异常捕获">
       <created>1666766229575</created>
@@ -221,7 +214,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666878037465</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="日志模块">
+      <created>1666880961698</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666880961698</updated>
+    </task>
+    <task id="LOCAL-00010" summary="日志模块">
+      <created>1666881066618</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666881066618</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +243,8 @@
     <MESSAGE value="swagger模块更新" />
     <MESSAGE value="auth模块结构调整" />
     <MESSAGE value="auth模块实体类" />
-    <option name="LAST_COMMIT_MESSAGE" value="auth模块实体类" />
+    <MESSAGE value="日志模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="日志模块" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1666787144835">
@@ -263,10 +271,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1666855664665" />
-    <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1666880959375">
+    <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1666881064531">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="343" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1666880959375" />
+    <state x="343" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1666881064531" />
     <state x="515" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1666851471101" />
     <state width="1237" height="321" key="GridCell.Tab.0.bottom" timestamp="1666875347406">
       <screen x="0" y="0" width="1280" height="680" />
@@ -312,10 +320,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1666677486481" />
-    <state x="368" y="124" key="Vcs.Push.Dialog.v2" timestamp="1666880963582">
+    <state x="368" y="124" key="Vcs.Push.Dialog.v2" timestamp="1666881085821">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="368" y="124" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1666880963582" />
+    <state x="368" y="124" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1666881085821" />
     <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1666851475456" />
     <state x="488" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1666848894254">
       <screen x="0" y="0" width="1920" height="1040" />

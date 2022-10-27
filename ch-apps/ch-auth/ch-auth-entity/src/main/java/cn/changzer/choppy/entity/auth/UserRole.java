@@ -25,7 +25,7 @@ import java.time.LocalDateTime;
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
-@TableName("pd_auth_user_role")
+@TableName("ch_auth_user_role")
 @ApiModel(value = "UserRole", description = "角色分配")
 public class UserRole extends SuperEntity<Long> {
 
