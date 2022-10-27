@@ -15,6 +15,7 @@
         <module name="ch-auth.entity" />
         <module name="ch-tools-database" />
         <module name="ch-tools-swagger3" />
+        <module name="ch-tools-log" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

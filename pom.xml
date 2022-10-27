@@ -81,6 +81,9 @@
         <mybatis.version>3.5.2</mybatis.version>
         <mybatis.typehandlers.version>1.0.2</mybatis.typehandlers.version>
         <mybatisplus.version>3.2.0</mybatisplus.version>
+        <ip2region.version>1.7.2</ip2region.version>
+        <commons-lang.version>2.6</commons-lang.version>
+        <commons-io.version>2.6</commons-io.version>
     </properties>
 
     <!-- 1、只是声明依赖，并不实际引入，子项目按需声明使用的依赖 -->
@@ -203,6 +206,24 @@
                 <groupId>org.mybatis</groupId>
                 <artifactId>mybatis-typehandlers-jsr310</artifactId>
                 <version>${mybatis.typehandlers.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.lionsoul</groupId>
+                <artifactId>ip2region</artifactId>
+                <version>${ip2region.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>${commons-lang.version}</version>
             </dependency>
         </dependencies>
 

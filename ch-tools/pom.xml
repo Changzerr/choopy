@@ -17,6 +17,7 @@
         <module>ch-tools-redis</module>
         <module>ch-tools-validator</module>
         <module>ch-tools-database</module>
+        <module>ch-tools-log</module>
     </modules>
 
 

@@ -84,6 +84,14 @@ public class Result<T> extends JSON {
         this.code = commonCode.getCode();
         this.msg = commonCode.getMsg();
     }
+    /**
+     * 逻辑处理是否成功
+     *
+     * @return 是否成功
+     */
+    public Boolean getIsSuccess() {
+        return this.code < 30000 && this.code >= 20000 || this.code == 200;
+    }
 
     public static <T> Result<T> result(int code, T data, String msg) {
         return new Result<T>(code, msg, data);
