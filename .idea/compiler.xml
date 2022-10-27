@@ -7,14 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ch-auth-entity" />
         <module name="ch-tools-validator" />
         <module name="ch-tools-common" />
         <module name="ch-tools-redis" />
-        <module name="ch-auth" />
+        <module name="ch-auth-server" />
+        <module name="ch-auth.entity" />
         <module name="ch-tools-database" />
         <module name="ch-tools-swagger3" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch-auth.entity" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
