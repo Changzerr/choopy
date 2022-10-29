@@ -2,17 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a237335-0b18-4b42-ac10-07868af19951" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Resource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/RoleAuthority.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/RoleAuthority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/RoleOrg.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/RoleOrg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/UserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/common/LoginLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/common/LoginLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/common/OptLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/common/OptLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/core/Org.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/core/Org.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/core/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/core/Station.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/test/java/Testaa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/enums/CacheKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/LoginDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/LoginParamDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/MenuSaveDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/MenuTreeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/MenuUpdateDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/ResourceQueryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/ResourceSaveDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/ResourceUpdateDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RoleAuthoritySaveDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RolePageDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RoleQueryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RoleSaveDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RoleUpdateDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RouterMeta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserPageDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserRoleDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserRoleSaveDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserSaveDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserUpdateAvatarDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserUpdateDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserUpdatePasswordDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/VueRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/OrgSaveDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/OrgTreeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/OrgUpdateDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/StationPageDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/StationSaveDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/StationUpdateDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Resource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/RoleAuthority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/RoleOrg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/common/LoginLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/common/OptLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/core/Org.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/core/Station.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/enumeration/auth/AuthorizeType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/enumeration/auth/Sex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/enumeration/common/LogType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/controller/ConfigClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/controller/ConfigClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/enums/CommonCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/enums/CommonCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-database/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-log/src/main/java/cn/changzer/choppy/log/aspect/SysLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-log/src/main/java/cn/changzer/choppy/log/aspect/SysLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +128,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch-tools/ch-tools-log/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,32 +138,54 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\学习\web微服务\choppy\ch-apps\ch-auth\ch-auth-server\src\main\resources" />
-      <recent name="E:\学习\web微服务\choppy\ch-tools\ch-tools-database\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\学习\web微服务\choppy\ch-apps\ch-auth\ch-auth-server\src\main\resources\mapper_authority" />
+      <recent name="E:\学习\web微服务\choppy\ch-apps\ch-auth\ch-auth-server\src\main\resources" />
+      <recent name="E:\学习\web微服务\choppy\ch-apps\ch-auth\ch-auth-server\src\main\java\cn\changzer\choppy" />
+      <recent name="E:\学习\web微服务\choppy\ch-tools\ch-tools-log\src\main\resources" />
+      <recent name="E:\学习\web微服务\choppy\ch-tools\ch-tools-log\src\main\java\cn\changzer\choppy\log" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.changzer.choppy.log" />
       <recent name="cn.changzer.choppy.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\学习\web微服务\choppy\ch-tools\ch-tools-log\src\main\resources" />
-      <recent name="E:\学习\web微服务\choppy\ch-tools\ch-tools-log\src\main\java\cn\changzer\choppy\log" />
-      <recent name="E:\学习\web微服务\choppy\ch-apps\ch-auth\ch-auth-entity\src\main\java\cn\changzer\choppy" />
-      <recent name="E:\学习\web微服务\choppy\ch-tools\ch-tools-swagger3\src\main\java\cn\changzer\choppy\swagger2" />
-      <recent name="E:\学习\web微服务\choppy\ch-tools\ch-tools-common\src\main\java\cn\changzer\choppy" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\学习\web微服务\choppy\ch-apps\ch-auth\ch-auth-server\src\main\resources" />
+      <recent name="E:\学习\web微服务\choppy\ch-tools\ch-tools-database\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AuthorityApplication (1)">
+    <configuration name="Testaa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch-auth-server" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Testaa" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testaa.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch-auth-server" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Testaa" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AuthorityApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ch-auth-server" />
       <extension name="coverage">
@@ -141,6 +209,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AuthorityApplication (1)" />
+        <item itemvalue="JUnit.Testaa" />
+        <item itemvalue="JUnit.Testaa.test" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +226,9 @@
       <updated>1666663803282</updated>
       <workItem from="1666663808877" duration="5658000" />
       <workItem from="1666676183660" duration="30164000" />
-      <workItem from="1666848892589" duration="18491000" />
+      <workItem from="1666848892589" duration="22556000" />
+      <workItem from="1667046035239" duration="4729000" />
+      <workItem from="1667052629094" duration="1545000" />
     </task>
     <task id="LOCAL-00001" summary="全局异常捕获">
       <created>1666766229575</created>
@@ -228,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666881066618</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="实体类修改">
+      <created>1666881547186</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666881547186</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +323,8 @@
     <MESSAGE value="auth模块结构调整" />
     <MESSAGE value="auth模块实体类" />
     <MESSAGE value="日志模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="日志模块" />
+    <MESSAGE value="实体类修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="实体类修改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1666787144835">
@@ -255,10 +335,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="370" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1666666394783" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1666688744918">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1667047268080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1666688744918" />
+    <state x="510" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1666936337757" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1667047268080" />
     <state x="257" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1666873568822">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -267,73 +348,90 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="386" y="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1666873572868" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1666855664665">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1667051778596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1666855664665" />
-    <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1666881064531">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1667051778596" />
+    <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1666881544766">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="343" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1666881064531" />
+    <state x="343" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1666881544766" />
     <state x="515" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1666851471101" />
-    <state width="1237" height="321" key="GridCell.Tab.0.bottom" timestamp="1666875347406">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="582" key="GridCell.Tab.0.bottom" timestamp="1667053281851">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666875347406" />
-    <state width="1877" height="538" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1666855256988" />
-    <state width="1237" height="321" key="GridCell.Tab.0.center" timestamp="1666875347406">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="582" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281851" />
+    <state width="1877" height="582" key="GridCell.Tab.0.center" timestamp="1667053281851">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1666875347406" />
-    <state width="1877" height="538" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1666855256988" />
-    <state width="1237" height="321" key="GridCell.Tab.0.left" timestamp="1666875347405">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="582" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281851" />
+    <state width="1877" height="582" key="GridCell.Tab.0.left" timestamp="1667053281850">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1666875347405" />
-    <state width="1877" height="538" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1666855256988" />
-    <state width="1237" height="321" key="GridCell.Tab.0.right" timestamp="1666875347406">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="582" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281850" />
+    <state width="1877" height="582" key="GridCell.Tab.0.right" timestamp="1667053281851">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1666875347406" />
-    <state width="1877" height="538" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1666855256988" />
-    <state width="1237" height="321" key="GridCell.Tab.1.bottom" timestamp="1666875347407">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="582" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281851" />
+    <state width="1877" height="582" key="GridCell.Tab.1.bottom" timestamp="1667053281851">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666875347407" />
-    <state width="1877" height="538" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1666855256989" />
-    <state width="1237" height="321" key="GridCell.Tab.1.center" timestamp="1666875347406">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="582" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281851" />
+    <state width="1877" height="582" key="GridCell.Tab.1.center" timestamp="1667053281851">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1666875347406" />
-    <state width="1877" height="538" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1666855256989" />
-    <state width="1237" height="321" key="GridCell.Tab.1.left" timestamp="1666875347406">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="582" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281851" />
+    <state width="1877" height="582" key="GridCell.Tab.1.left" timestamp="1667053281851">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1666875347406" />
-    <state width="1877" height="538" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1666855256988" />
-    <state width="1237" height="321" key="GridCell.Tab.1.right" timestamp="1666875347406">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="582" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281851" />
+    <state width="1877" height="582" key="GridCell.Tab.1.right" timestamp="1667053281851">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1666875347406" />
-    <state width="1877" height="538" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1666855256989" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1666677486481">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="582" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281851" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1667052608852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1667052608852" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1667052608852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1667052608852" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1667052608852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1667052608852" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1667052608852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1667052608852" />
+    <state x="213" y="0" key="SettingsEditor" timestamp="1667052606869">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1666677486481" />
+    <state x="213" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1667052606869" />
     <state x="368" y="124" key="Vcs.Push.Dialog.v2" timestamp="1666881085821">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="368" y="124" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1666881085821" />
     <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1666851475456" />
-    <state x="488" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1666848894254">
+    <state x="488" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1667052628819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1666663809057" />
-    <state x="488" y="252" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1666848894254" />
-    <state x="28" y="35" key="new project wizard" timestamp="1666878225673">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="488" y="252" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1667052628819" />
+    <state x="42" y="54" key="new project wizard" timestamp="1667046709767">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="28" y="35" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1666878225673" />
-    <state x="42" y="54" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1666849041578" />
+    <state x="42" y="54" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1667046709767" />
   </component>
 </project>

@@ -26,7 +26,7 @@ public enum CommonCode {
 
     NUMBER_OF_FULL(50006,"操作失败,人数已满!!!"),
 
-    FAILURE_TO_LOGIN(50007,"登录失败，学号或者密码错误"),
+    FAILURE_TO_LOGIN(50007,"登录失败，账号或者密码错误"),
 
     FAILURE_TO_LOGIN_ADMIN(50008,"登录失败，学工号错误"),
 

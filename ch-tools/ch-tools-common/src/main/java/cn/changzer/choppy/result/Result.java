@@ -92,6 +92,25 @@ public class Result<T> extends JSON {
     public Boolean getIsSuccess() {
         return this.code < 30000 && this.code >= 20000 || this.code == 200;
     }
+    /**
+     * 请求成功消息
+     * @return RPC调用结果
+     */
+    public static <E> Result<E> success(CommonCode code) {
+        return new Result<E>(code.getCode(), code.getMsg(),null );
+    }
+    /**
+     * 请求成功消息
+     * @return RPC调用结果
+     */
+    public static <E> Result<E> success(CommonCode code, E data) {
+        return new Result<E>(code.getCode(), code.getMsg(), data);
+    }
+
+    public static <E> Result<E> fail(CommonCode code) {
+        return new Result<E>(code.getCode(), code.getMsg(),null );
+    }
+
 
     public static <T> Result<T> result(int code, T data, String msg) {
         return new Result<T>(code, msg, data);

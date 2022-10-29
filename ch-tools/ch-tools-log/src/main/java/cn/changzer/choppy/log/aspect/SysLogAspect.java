@@ -11,7 +11,6 @@ import cn.hutool.core.util.StrUtil;
 import cn.hutool.core.util.URLUtil;
 import cn.hutool.extra.servlet.ServletUtil;
 import com.alibaba.fastjson.JSONObject;
-import com.baomidou.mybatisplus.extension.api.R;
 import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;

@@ -1,7 +1,6 @@
-package cn.changzer.choppy.entity.auth;
+package cn.changzer.choppy;
 
 import cn.changzer.choppy.entity.Entity;
-import cn.changzer.choppy.enumeration.auth.Sex;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
@@ -88,9 +87,9 @@ public class User extends Entity<Long> {
      * 性别
      * #Sex{W:女;M:男;N:未知}
      */
-    @ApiModelProperty(value = "性别")
-    @TableField("sex")
-    private Sex sex;
+    //@ApiModelProperty(value = "性别")
+    //@TableField("sex")
+    //private Sex sex;
 
     /**
      * 启用状态 1启用 0禁用
@@ -157,7 +156,7 @@ public class User extends Entity<Long> {
     @Builder
     public User(Long id, Long createUser, LocalDateTime createTime, Long updateUser, LocalDateTime updateTime,
                 String account, String name, Long orgId, Long stationId, String email,
-                String mobile, Sex sex, Boolean status, String avatar, String workDescribe, LocalDateTime passwordErrorLastTime,
+                String mobile, /*Sex sex,*/ Boolean status, String avatar, String workDescribe, LocalDateTime passwordErrorLastTime,
                 Integer passwordErrorNum, LocalDateTime passwordExpireTime, String password, LocalDateTime lastLoginTime) {
         this.id = id;
         this.createUser = createUser;
@@ -170,7 +169,7 @@ public class User extends Entity<Long> {
         this.stationId = stationId;
         this.email = email;
         this.mobile = mobile;
-        this.sex = sex;
+        //this.sex = sex;
         this.status = status;
         this.avatar = avatar;
         this.workDescribe = workDescribe;
