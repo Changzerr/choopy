@@ -1,6 +1,7 @@
 import cn.changzer.choppy.AuthorityApplication;
-import cn.changzer.choppy.biz.UserMapper;
-import cn.changzer.choppy.User;
+
+import cn.changzer.choppy.biz.dao.auth.UserMapper;
+import cn.changzer.choppy.entity.auth.User;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;

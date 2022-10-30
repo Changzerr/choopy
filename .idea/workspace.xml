@@ -1,64 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a237335-0b18-4b42-ac10-07868af19951" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/test/java/Testaa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/enums/CacheKey.java" afterDir="false" />
+    <list default="true" id="0a237335-0b18-4b42-ac10-07868af19951" name="Default Changelist" comment="实体类修改">
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/LoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/LoginParamDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/MenuSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/MenuTreeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/MenuUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/ResourceQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/ResourceSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/ResourceUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RoleAuthoritySaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RolePageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RoleQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RoleSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RoleUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RouterMeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserPageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserRoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserRoleSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserUpdateAvatarDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserUpdatePasswordDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/VueRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/OrgSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/OrgTreeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/OrgUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/StationPageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/StationSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/StationUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/RoleAuthority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/RoleOrg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/common/LoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/common/OptLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/core/Org.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/core/Station.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/enumeration/auth/AuthorizeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/enumeration/auth/Sex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/enumeration/common/LogType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/dao/auth/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/dao/auth/ResourceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/dao/auth/RoleAuthorityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/dao/auth/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/dao/auth/RoleOrgMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/dao/auth/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/dao/auth/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/dao/common/LoginLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/dao/common/OptLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/dao/core/OrgMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/dao/core/StationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/ResourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/RoleAuthorityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/RoleOrgService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/UserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/ValidateCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/impl/AuthManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/impl/ResourceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/impl/RoleAuthorityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/impl/RoleOrgServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/auth/impl/ValidateCodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/common/LoginLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/common/OptLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/common/impl/LoginLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/common/impl/OptLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/core/OrgService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/core/StationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/core/impl/OrgServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/service/core/impl/StationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority/base/auth/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority/base/auth/ResourceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority/base/auth/RoleAuthorityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority/base/auth/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority/base/auth/RoleOrgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority/base/auth/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority/base/auth/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority/base/common/LoginLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority/base/common/OptLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority/base/core/OrgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority/base/core/StationMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/LoginDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/LoginParamDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/MenuSaveDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/MenuTreeDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/MenuUpdateDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/ResourceQueryDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/ResourceSaveDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/ResourceUpdateDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RoleAuthoritySaveDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RolePageDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RoleQueryDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RoleSaveDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RoleUpdateDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/RouterMeta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserPageDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserRoleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserRoleSaveDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserSaveDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserUpdateAvatarDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserUpdateDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/UserUpdatePasswordDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/auth/VueRouter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/OrgSaveDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/OrgTreeDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/OrgUpdateDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/StationPageDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/StationSaveDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/dto/core/StationUpdateDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Resource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/RoleAuthority.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/RoleOrg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/auth/UserRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/common/LoginLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/common/OptLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/core/Org.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/entity/core/Station.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/enumeration/auth/AuthorizeType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/enumeration/auth/Sex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/enumeration/common/LogType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-entity/src/main/java/cn/changzer/choppy/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/biz/UserMapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/controller/ConfigClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/java/cn/changzer/choppy/controller/ConfigClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/enums/CommonCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/enums/CommonCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-common/src/main/java/cn/changzer/choppy/result/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-database/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch-tools/ch-tools-log/src/main/java/cn/changzer/choppy/log/aspect/SysLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-tools/ch-tools-log/src/main/java/cn/changzer/choppy/log/aspect/SysLogAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/main/resources/mapper_authority/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/test/java/Testaa.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch-apps/ch-auth/ch-auth-server/src/test/java/Testaa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +267,7 @@
       <workItem from="1666676183660" duration="30164000" />
       <workItem from="1666848892589" duration="22556000" />
       <workItem from="1667046035239" duration="4729000" />
-      <workItem from="1667052629094" duration="1545000" />
+      <workItem from="1667052629094" duration="3695000" />
     </task>
     <task id="LOCAL-00001" summary="全局异常捕获">
       <created>1666766229575</created>
@@ -307,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666881547186</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="实体类修改">
+      <created>1667056368347</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667056368347</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,51 +398,51 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1667051778596" />
-    <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1666881544766">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="515" y="112" key="CommitChangelistDialog2" timestamp="1667056383806">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="343" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1666881544766" />
-    <state x="515" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1666851471101" />
-    <state width="1877" height="582" key="GridCell.Tab.0.bottom" timestamp="1667053281851">
+    <state x="515" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1667056383806" />
+    <state width="1877" height="582" key="GridCell.Tab.0.bottom" timestamp="1667098134015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666875347406" />
-    <state width="1877" height="582" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281851" />
-    <state width="1877" height="582" key="GridCell.Tab.0.center" timestamp="1667053281851">
+    <state width="1877" height="582" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1667098134015" />
+    <state width="1877" height="582" key="GridCell.Tab.0.center" timestamp="1667098134014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1666875347406" />
-    <state width="1877" height="582" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281851" />
-    <state width="1877" height="582" key="GridCell.Tab.0.left" timestamp="1667053281850">
+    <state width="1877" height="582" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1667098134014" />
+    <state width="1877" height="582" key="GridCell.Tab.0.left" timestamp="1667098134014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1666875347405" />
-    <state width="1877" height="582" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281850" />
-    <state width="1877" height="582" key="GridCell.Tab.0.right" timestamp="1667053281851">
+    <state width="1877" height="582" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1667098134014" />
+    <state width="1877" height="582" key="GridCell.Tab.0.right" timestamp="1667098134015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1666875347406" />
-    <state width="1877" height="582" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281851" />
-    <state width="1877" height="582" key="GridCell.Tab.1.bottom" timestamp="1667053281851">
+    <state width="1877" height="582" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1667098134015" />
+    <state width="1877" height="582" key="GridCell.Tab.1.bottom" timestamp="1667098134015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666875347407" />
-    <state width="1877" height="582" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281851" />
-    <state width="1877" height="582" key="GridCell.Tab.1.center" timestamp="1667053281851">
+    <state width="1877" height="582" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1667098134015" />
+    <state width="1877" height="582" key="GridCell.Tab.1.center" timestamp="1667098134015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1666875347406" />
-    <state width="1877" height="582" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281851" />
-    <state width="1877" height="582" key="GridCell.Tab.1.left" timestamp="1667053281851">
+    <state width="1877" height="582" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1667098134015" />
+    <state width="1877" height="582" key="GridCell.Tab.1.left" timestamp="1667098134015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1666875347406" />
-    <state width="1877" height="582" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281851" />
-    <state width="1877" height="582" key="GridCell.Tab.1.right" timestamp="1667053281851">
+    <state width="1877" height="582" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1667098134015" />
+    <state width="1877" height="582" key="GridCell.Tab.1.right" timestamp="1667098134015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="321" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1666875347406" />
-    <state width="1877" height="582" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1667053281851" />
+    <state width="1877" height="582" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1667098134015" />
     <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1667052608852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,7 +1,8 @@
 package cn.changzer.choppy.controller;
 
-import cn.changzer.choppy.User;
-import cn.changzer.choppy.biz.UserMapper;
+
+import cn.changzer.choppy.biz.dao.auth.UserMapper;
+import cn.changzer.choppy.entity.auth.User;
 import cn.changzer.choppy.jwt.TokenUtil;
 import cn.changzer.choppy.redis.RedisCache;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
